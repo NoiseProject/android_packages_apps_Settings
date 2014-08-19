@@ -12,6 +12,13 @@
         android:key="battery_style_pref"
         android:title="@string/battery_title"
     	android:summary="@string/battery2_summary" />
+
+    <PreferenceScreen
+	    android:key="network_traffic_state"
+    	android:fragment="com.android.settings.np.NetworkTraffic"
+	    android:summary="@string/network_traffic_summary"
+    	android:title="@string/network_traffic_title" />
+
     </PreferenceCategory>
 
 </PreferenceScreen>
