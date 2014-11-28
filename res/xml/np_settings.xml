@@ -6,7 +6,7 @@
     <PreferenceScreen
         android:key="about_np"
         android:fragment="com.android.settings.np.NoiseAbout"
-        android:title="@string/chroma_menu_about" />
+        android:title="@string/np_menu_about" />
 
     <PreferenceCategory
         android:key="category_np_personalization"
@@ -14,7 +14,8 @@
 
     <PreferenceScreen
         android:key="status_bar_general_category"
-        android:title="@string/status_bar_screen_title" />
+        android:fragment="com.android.settings.np.StatusBarSettings"
+        android:title="@string/status_bar_screen_title"/>
 
     <PreferenceScreen
         android:key="navigation_bar_general_category"
