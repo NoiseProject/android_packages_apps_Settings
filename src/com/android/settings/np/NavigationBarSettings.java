@@ -1,5 +1,7 @@
 package com.android.settings.np;
 
+import com.android.internal.logging.MetricsLogger;
+
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.ActivityNotFoundException;
@@ -133,5 +135,10 @@ public class NavigationBarSettings extends SettingsPreferenceFragment implements
             return true;
         }
             return false;
+    }
+
+    @Override
+    protected int getMetricsCategory() {
+        return MetricsLogger.DISPLAY;
     }
 }

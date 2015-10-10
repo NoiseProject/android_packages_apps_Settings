@@ -1,5 +1,7 @@
 package com.android.settings.np;
 
+import com.android.internal.logging.MetricsLogger;
+
 import android.os.Bundle;
 
 import com.android.settings.R;
@@ -13,4 +15,10 @@ public class GestureSettings extends SettingsPreferenceFragment {
 
         addPreferencesFromResource(R.xml.np_settings_gestures);
     }
+
+    @Override
+    protected int getMetricsCategory() {
+        return MetricsLogger.DISPLAY;
+    }
+
 }
