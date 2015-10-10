@@ -168,6 +168,14 @@
             <intent android:action="com.android.settings.MANUFACTURER_APPLICATION_SETTING" />
         </dashboard-tile>
 
+
+        <!-- ROM TWEAKS -->
+        <dashboard-tile
+                android:id="@+id/np_settings"
+                android:title="@string/np_settings_title"
+                android:fragment="com.android.settings.np.NoiseSettings" 
+        	android:icon="@drawable/ic_settings_more" />
+
     </dashboard-category>
 
     <!-- PERSONAL -->
