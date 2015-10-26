@@ -39,6 +39,7 @@
     <string name="battery_title">Battery</string>
     <string name="battery2_summary">Customize battery icons and percentage</string>
     <string name="display_category_batteryclock_options_title">Battery and clock options</string>
+    <string name="display_category_onscreen">On-screen buttons</string>
 
     <!-- Status bar - Battery -->
     <string name="status_bar_battery_style_title">Battery status style</string>
