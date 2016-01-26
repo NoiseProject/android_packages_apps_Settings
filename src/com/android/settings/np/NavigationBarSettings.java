@@ -53,6 +53,7 @@ public class NavigationBarSettings extends SettingsPreferenceFragment implements
             (ListPreference) findPreference(PREF_NAVIGATION_BAR_HEIGHT);
         mNavigationBarHeight.setOnPreferenceChangeListener(this);
 
+/* tablets
         mNavigationBarHeightLandscape =
             (ListPreference) findPreference(PREF_NAVIGATION_BAR_HEIGHT_LANDSCAPE);
 
@@ -62,6 +63,7 @@ public class NavigationBarSettings extends SettingsPreferenceFragment implements
         } else {
             mNavigationBarHeightLandscape.setOnPreferenceChangeListener(this);
         }
+*/
 
         mNavigationBarWidth =
             (ListPreference) findPreference(PREF_NAVIGATION_BAR_WIDTH);
