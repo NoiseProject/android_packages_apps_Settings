@@ -18,6 +18,6 @@ public class npSettings extends SettingsPreferenceFragment {
 
     @Override
     protected int getMetricsCategory() {
-        return MetricsLogger.DISPLAY;
+        return MetricsLogger.APPLICATION;
     }
 }
