@@ -1315,7 +1315,6 @@ public final class Utils {
     public static boolean isTablet(Context con) {
         return getScreenType(con) == DEVICE_TABLET;
     }
-}
 
     /**
      * Locks the activity orientation to the current device orientation

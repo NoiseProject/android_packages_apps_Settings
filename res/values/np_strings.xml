@@ -32,6 +32,7 @@
     <string name="display_category_statusbar_options_title">Status bar options</string>
     <string name="display_category_navbar_options_title">Navigation bar options</string>
     <string name="display_category_clock_options_title">Clock options</string>
+    <string name="display_category_lockscreen_options_title">Lockscreen options</string>
 
     <!-- Menu -->
     <string name="ok_string">OK</string>
@@ -208,5 +209,17 @@
     <string name="clock_date_style_lowercase">Lowercase</string>
     <string name="clock_date_style_uppercase">Uppercase</string>
     <string name="clock_date_format_custom">Custom java format</string>
+
+    <!-- Carrier label -->
+    <string name="carrier_title">Carrier Label</string>
+    <string name="carrier_options_summary">Customize the carrier label</string>
+    <string name="custom_carrier_label_title">Custom carrier label</string>
+    <string name="custom_carrier_label_explain">Please enter a new label. Leave blank to revert to stock label.</string>
+    <string name="custom_carrier_label_notset">Custom label currently not set</string>
+    <string name="show_carrier_title">Carrier label</string>
+    <string name="show_carrier_disabled">Disabled</string>
+    <string name="show_carrier_keyguard">Lockscreen only</string>
+    <string name="show_carrier_statusbar">Statusbar only</string>
+    <string name="show_carrier_enabled">Lockscreen &amp; statusbar</string>
 
 </resources>
