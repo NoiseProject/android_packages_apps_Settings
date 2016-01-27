@@ -35,13 +35,10 @@ public class NavigationBarSettings extends SettingsPreferenceFragment implements
     private static final String PREF_NAVIGATION_BAR_HEIGHT = "navigation_bar_height";
     private static final String PREF_NAVIGATION_BAR_HEIGHT_LANDSCAPE = "navigation_bar_height_landscape";
     private static final String PREF_NAVIGATION_BAR_WIDTH = "navigation_bar_width";
-    private static final String STATUS_BAR_IME_ARROWS = "status_bar_ime_arrows";
 
     ListPreference mNavigationBarHeight;
     ListPreference mNavigationBarHeightLandscape;
     ListPreference mNavigationBarWidth;
-
-    private SwitchPreference mStatusBarImeArrows;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -50,12 +47,6 @@ public class NavigationBarSettings extends SettingsPreferenceFragment implements
         addPreferencesFromResource(R.xml.np_settings_navigation);
 
         PreferenceScreen prefSet = getPreferenceScreen();
-
-        // nav bar cursor
-        mStatusBarImeArrows = (SwitchPreference) findPreference(STATUS_BAR_IME_ARROWS);
-        mStatusBarImeArrows.setChecked(Settings.System.getInt(getContentResolver(),
-                Settings.System.STATUS_BAR_IME_ARROWS, 0) == 1);
-        mStatusBarImeArrows.setOnPreferenceChangeListener(this);
 
         // navigation bar dimensions
         mNavigationBarHeight =
@@ -143,11 +134,6 @@ public class NavigationBarSettings extends SettingsPreferenceFragment implements
             Settings.System.putInt(getContentResolver(),
                     Settings.System.NAVIGATION_BAR_HEIGHT_LANDSCAPE, Integer.parseInt((String) objValue));
             updateDimensionValues();
-            return true;
-        } else if (preference == mStatusBarImeArrows) {
-            Settings.System.putInt(getActivity().getContentResolver(),
-                Settings.System.STATUS_BAR_IME_ARROWS,
-                    ((Boolean) objValue) ? 1 : 0);
             return true;
         }
             return false;
