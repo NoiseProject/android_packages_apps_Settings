@@ -20,7 +20,7 @@
     android:title="Donate">
     <intent
         android:action="android.intent.action.VIEW"
-        android:data="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=S8HZU82A4UCFA" />
+        android:data="https://goo.gl/OI9QZo" />
 </PreferenceScreen>
 
 <PreferenceScreen android:title="OTA notifications">
