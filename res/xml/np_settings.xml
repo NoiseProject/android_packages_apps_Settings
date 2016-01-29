@@ -17,10 +17,15 @@
             android:fragment="com.android.settings.np.StatusBarSettings"
             android:title="@string/status_bar_screen_title"/>
 
-    <PreferenceScreen
-        android:key="navigation_bar_general_category"
-        android:fragment="com.android.settings.np.NavigationBarSettings"
-        android:title="@string/navigation_bar_screen_title" />
+        <PreferenceScreen
+            android:key="navigation_bar_general_category"
+            android:fragment="com.android.settings.np.NavigationBarSettings"
+            android:title="@string/navigation_bar_screen_title" />
+    
+        <PreferenceScreen
+            android:key="lock_screen_general_category"
+            android:fragment="com.android.settings.np.LockScreenSettings"
+            android:title="@string/lockscreen_title" />
 
     </PreferenceCategory>
 

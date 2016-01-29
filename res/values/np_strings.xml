@@ -42,9 +42,7 @@
     <string name="np_menu_about">About NP</string>
     <string name="status_bar_screen_title">Status bar</string>
     <string name="navigation_bar_screen_title">Navigation bar</string>
-    <string name="gestures_title">Gestures</string>
     <string name="lockscreen_title">Lock screen</string>
-    <string name="power_menu_title">Power menu</string>
     <string name="battery_title">Battery</string>
     <string name="battery2_summary">Customize battery icons and percentage</string>
 
