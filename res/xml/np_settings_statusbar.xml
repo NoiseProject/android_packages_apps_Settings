@@ -19,17 +19,17 @@
         android:title="@string/status_bar_clock"
     	android:summary="@string/status_bar_clock_summary" />
 
-    <PreferenceScreen
-	    android:key="network_traffic_state"
-    	android:fragment="com.android.settings.np.NetworkTraffic"
-	    android:summary="@string/network_traffic_summary"
-    	android:title="@string/network_traffic_title" />
-
     </PreferenceCategory>
 
    <PreferenceCategory
         android:key="category_statusbar_options"
         android:title="@string/display_category_statusbar_options_title" >
+
+    <PreferenceScreen
+	    android:key="network_traffic_state"
+    	android:fragment="com.android.settings.np.NetworkTraffic"
+	    android:summary="@string/network_traffic_summary"
+    	android:title="@string/network_traffic_title" />
 
     <ListPreference
         android:key="quick_pulldown"
