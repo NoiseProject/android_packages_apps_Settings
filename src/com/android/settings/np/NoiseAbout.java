@@ -19,7 +19,7 @@ import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.Utils;
 
-public class npAbout extends SettingsPreferenceFragment implements
+public class NoiseAbout extends SettingsPreferenceFragment implements
         OnPreferenceChangeListener {
 
     @Override

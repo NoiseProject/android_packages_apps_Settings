@@ -37,7 +37,7 @@
     <!-- Menu -->
     <string name="ok_string">OK</string>
     <string name="header_category_np">Personalization</string>
-    <string name="np_settings_title">Noise Project</string>
+    <string name="np_settings_title">More</string>
     <string name="np_menu_personalizaton">NP options</string>
     <string name="np_menu_about">About NP</string>
     <string name="status_bar_screen_title">Status bar</string>
