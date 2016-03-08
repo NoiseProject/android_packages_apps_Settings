@@ -38,7 +38,6 @@
     <!-- The duration (in milliseconds) of activity transitions -->
     <integer name="setup_wizard_transition_duration">300</integer>
 
-
     <!-- This used to define screen color's Hue progress bar minimum value -->
     <integer name="minimum_hue_value" translatable="false">0</integer>
 
@@ -74,5 +73,8 @@
 
     <!-- This is used to define screen color's contrast progress bar maximum value-->
     <integer name="maximum_contrast_value" translatable="false">360</integer>
+
+    <!-- When true enable color temperature setting. -->
+    <bool name="config_enableColorTemperature">false</bool>
 
 </resources>
