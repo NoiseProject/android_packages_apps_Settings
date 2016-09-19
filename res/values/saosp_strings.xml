@@ -14,8 +14,11 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- SimpleAOSP build date-->
-    <string name="build_date">SimpleAOSP-N build date</string>
+    <!-- Nexus version -->
+    <string name="nexus_version">Noise Project version</string>
+    <string name="nexus_version_default">Unknown</string>
+    <!-- Noise Project build date-->
+    <string name="build_date">Build date</string>
     <string name="build_date_default">2014-01-01-0000</string> 
     <!-- Vendor version -->
     <string name="vendor_version">Vendor version</string>
@@ -47,9 +50,9 @@
     <string name="volbtn_music_controls_summary">When screen off, long-pressing the volume rockers will seek music tracks</string>
     <string name="volume_button_toggle_info">Volume rocker wake must be disabled</string>
 
-    <!-- Saosp Settings menus -->
-    <string name="simpleaosp_settings_title">Build Tweaks</string>
-    <string name="keywords_simpleaosp">simpleaosp</string>
+    <!-- NP Settings menus -->
+    <string name="simpleaosp_settings_title">NP Tweaks</string>
+    <string name="keywords_simpleaosp">Noise Project</string>
     <!-- Lock screen settings -->
     <string name="lock_screen_title">Lock screen</string>
     <!-- Status bar-->
